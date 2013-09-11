@@ -17,3 +17,4 @@
 {"ts":1378901865467,"patch":[[{"diffs":[[0,"YPE "],[-1,"HTML PUBLIC=\"http://www.server.se\""],[1,"html"],[0,">\r\n<"]],"start1":6,"start2":6,"length1":42,"length2":12}]],"length":667,"saved":false}
 {"ts":1378901959929,"patch":[[{"diffs":[[0,">\r\n<html"],[-1," "],[0,"/>"]],"start1":656,"start2":656,"length1":11,"length2":10}]],"length":666,"saved":false}
 {"ts":1378902019312,"patch":[[{"diffs":[[0,"body>\r\n<"],[1,"/"],[0,"html"],[-1,"/"],[0,">"]],"start1":652,"start2":652,"length1":14,"length2":14}]],"length":666,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378910807186,"patch":[[{"diffs":[[0,"4.1</h2>"],[1,"<br>"],[0,"\r\n<a hre"]],"start1":197,"start2":197,"length1":16,"length2":20},{"diffs":[[0,"ml</a>\r\n"],[-1,"<br>\r\n"],[0,"<h2>Uppg"]],"start1":274,"start2":274,"length1":22,"length2":16}]],"length":664,"saved":false}
