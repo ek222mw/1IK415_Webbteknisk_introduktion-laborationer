@@ -12,5 +12,25 @@
     <li><a href="https://c9.io/ek222mw/1ik415-laborationer-public/workspace/Pages/laborationer.html">laborationer.html</a></li>
     <li><a href="https://c9.io/ek222mw/1ik415-laborationer-public/workspace/Pages/kontakt.html">kontakt.html</a></li>
     </ul>
+    <h3>Observera bara ett påhittat kontaktformulär.</h3>
+    <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+    <fieldset style="width 450px;">
+    <legend>Fråga</legend>
+    <label for="select">Ärendetyp</label>
+    <select name="Fråga" id="Fråga">
+    <option>Fråga</option>
+    <option var="Svar">Svar</option>
+    </select><br>
+    Rubrik:<input type="text" name="Rubrik" id="Rubrik" /><br>
+    Fråga:<textarea name="Fråga" id="Fråga" cols="20" rows="2"></textarea><br></fieldset>
+     <fieldset style="width 450px;">
+    <legend>Information om dig</legend>
+    <label for="telefon">Kontakta mig via mail</label>
+    <input type="checkbox" name="Kontakta mig via mail" id="mail" value="mail" /><br>
+     <label for="telefon">Kontakta mig via telefon</label>
+    <input type="checkbox" name="Kontakta mig via telefon" id="telefon" value="telefon" /><br>
+    </fieldset>
+    <input type="submit" name="Skicka fråga" id="Skicka fråga" value="Skicka fråga" />
+    </form>
     </body>
     </html>
