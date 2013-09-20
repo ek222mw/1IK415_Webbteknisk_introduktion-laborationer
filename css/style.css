@@ -1,0 +1,10 @@
+body{margin: 0; padding: 0; text-align: left;}
+    #box1{width: 200px; padding: 10px; margin-right: auto; margin-left:auto; text-align: center;}
+    #box2{width: 200px; padding: 10px;}
+    #container{float: center;}
+    #col1{background:#ffccff;width: 25em; float: left; padding: 1em; border-right: 1px solid #999999;}
+    #col2{background:#ffccff;width: 8em; float: left; padding: 1em; border-right: 1px solid #999999;}
+    #footer{clear: both;height:50px;padding-top:50px;background:#cc99cc;width:100%;padding: 1em; solid:#999999;border:1px;}
+    h1{font-size: 24px; color:#666633;}
+    #header{height:120px;padding-top:60px;background:#cc99cc;width:100%;padding: 1em; solid:#999999;border:1px;}
+    
