@@ -1,7 +1,7 @@
 body{margin: 1em 0 0 1em; padding: 0;font-family:times; font-size:16px;background-image: url(../pics/emil.png.png); color: white; }
     #box1{width: 200px; padding: 10px; margin-right: auto; margin-left:auto; text-align: center;}
     #box2{width: 200px; padding: 10px;}
-    #col1{background:#cc99cc;width:20em;padding: 0.5em; border-right: 1px solid #000000;
+    #col1{background:#cc99cc;width:35em;padding: 0.5em; border-right: 1px solid #000000;
     margin-left:10.7em;}
     #col2{background:#ffccff;width: 12em; float: left; padding: 0.5em; border-right: 1px solid #000000;}
     #footer{clear: both;height:50px;padding-top:50px;background:#cc99cc;width:100%;padding: 1em; solid:#999999;border:1px;}
@@ -45,7 +45,13 @@ h4{font-size: 18px; color:red;}
 .thumbnail:active img{
 	border: 1px solid blue;
 }
-
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top:1px;
+	height: 0;
+	float: right;
+}
 
 
     /*
