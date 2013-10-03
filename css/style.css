@@ -26,12 +26,21 @@
 #navigation ul a{text-decoration: none; padding:0; margin:0;}
 #navigation a:link{color:#000000 ;}
 #navigation a:visited{color: white;}
-#navigation ul{width: 10em; margin: 0; padding: 0; background: #CC99CC; border: 2px solid #ffffff;}
-#navigation a{display:block;}
+#navigation ul{width: 10em; margin: 0; padding: 0; background: #CC99CC; border: 2px solid #ffffff;;}
+#navigation a{display:block; }
 #navigation li{list-style: none; padding: 0.2em 0.1em;}
 #navigation li:hover{background:#ffcc66;}
 #navigation .active a{background-color: gray;}
 #navigation{float: left; width: 10.4em; border: 1px solid #000000;}
+#navigation li a {background: none no-repeat right center;background-image:url('pics/sprite.png');}
+#navigation li a.start{background-position: 120px -48px;}
+#navigation li a:hover.start{;background: none no-repeat; background-image:url('pics/sprite.png');background-position: 120px 0px; }
+#navigation li a.presentation{background-position: 120px -240px;}
+#navigation li a:hover.presentation{background: none no-repeat; background-image:url('pics/sprite.png');background-position: 120px -192px;}
+#navigation li a.laboration{background-position: 120px -145px;}
+#navigation li a:hover.laboration{background: none no-repeat; background-image:url('pics/sprite.png');background-position: 120px -97px; }
+#navigation li a.kontakt{background-position: 120px -337px;}
+#navigation li a:hover.kontakt{background: none no-repeat; background-image:url('pics/sprite.png');background-position: 120px -289px; }
 /* Bild och Video attribut */
 img.thumbnail{border: 1px solid white; margin: 3px 3px 3px 3px; float:right;}
 .video {position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top:1px; float: right;}
