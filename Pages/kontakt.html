@@ -1,10 +1,12 @@
   <!doctype html>
 <html lang="sv">
     <head>
-        <meta charset="utf-8"/>
-        <title>Kontakt</title>
-        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+<meta charset="utf-8" name="viewport" content="width=device-width" initial-scale=1.0 maximum-scale=1.0 user-scalable=0 />        <title>Kontakt</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen and (min-width:481px)" />
+        <link rel="stylesheet" type="text/css" href="../css/sp.css" media="screen and (max-width:481px)" />
         <link rel="stylesheet" type="text/css" href="../css/Utskrift.css" media="print" />
+        <link rel="shortcut icon" href="../css/pics/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../css/pics/apple-touch-icon-114x114-precomposed.png" />
     </head>
     <body>
     <div id="navigation">
@@ -27,13 +29,13 @@
     <option value="Svar">svar</option>
     </select><br>
     Rubrik:<input type="text" name="Rubrik" id="Rubrik"/><br>
-    Fråga:<textarea name="Fraga" id="Fråga" cols="20" rows="2"></textarea><br></fieldset>
+    Fråga:<textarea name="Fraga" id="Fråga" cols="20" rows="2" ></textarea><br></fieldset>
      <fieldset style="width 450px;">
     <legend>Information om dig</legend>
-    <label for="telefon">Kontakta mig via mail</label>
-    <input type="checkbox" name="Kontakta mig via mail" id="mail" value="mail" /><br>
-     <label for="telefon">Kontakta mig via telefon</label>
-    <input type="checkbox" name="Kontakta mig via telefon" id="telefon" value="telefon" /><br>
+    <label for="mail">Kontakta mig via mail</label>
+    <input type="email" name="Kontakta mig via mail" id="mail" value="mail" /><br>
+     <label for="tel">Kontakta mig via telefon</label>
+    <input type="tel" name="Kontakta mig via telefon" id="tel" value="tel" /><br>
     </fieldset>
     <input type="submit" name="Skicka fraga" id="Skicka_fraga" value="Skicka fråga"/>
     </form>
